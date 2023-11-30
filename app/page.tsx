@@ -46,6 +46,8 @@ export default function Home() {
 					</span>
 				</Snippet>
 			</div>
+
+			<p> Changes made by Nikhil</p>
 		</section>
 	);
 }
