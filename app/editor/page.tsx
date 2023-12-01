@@ -1,9 +1,13 @@
-import React from 'react'
+import Sidebar from "@/components/sidebar/sidebar";
+import React from "react";
 
 const EditorView = () => {
   return (
-    <div>EditorView</div>
-  )
-}
+    <div className="flex w-full">
+      {/* Sidebar */}
+      <Sidebar />
+    </div>
+  );
+};
 
-export default EditorView
+export default EditorView;
